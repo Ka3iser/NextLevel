@@ -1,2 +1,40 @@
-/* usar como modelo pradrão criar outros arquivos css para modificações nas próprias páginas */
+/* usar como modelo pradrão criar outros arquivos EM OUTRA PASTA css para modificações nas próprias páginas */
 
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: 0;
+}
+
+body{
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 8%;
+    list-style-type: none;
+}
+
+header a{
+    color: rgb(87, 84, 84);
+    padding: 15px;
+    font-size: 1.5rem;
+}
+
+header a:hover{
+    color: black;
+    transition: .7s;
+}
+
+#logo{
+    background-color: white;
+}
