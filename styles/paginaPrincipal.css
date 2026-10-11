@@ -1,7 +1,28 @@
+/* main */
 section{
-    height: 100vh;
+    height: 90vh;
 }
 
-.subSessao{
-    height: 45%;
+/* primeira sessão */
+
+#ia{
+    background-image: url(./img/backgrounds/notebook-background.png);
+    background-size: auto;
+}
+
+.esquerda{
+    margin-left: 30px;
+}
+
+.text{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+#ia h2{
+    font-size: 40px;
 }
