@@ -1,13 +1,20 @@
 /* main */
 section{
-    height: 90vh;
+    height: 84vh;
+}
+
+h2{
+    color: #76B900;
+    font-size: 50px;
 }
 
 /* primeira sessão */
 
 #ia{
-    background-image: url(./img/backgrounds/notebook-background.png);
-    background-size: auto;
+    background-image: url(../img/backgrounds/notebook-background.png);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
 }
 
 .esquerda{
@@ -15,14 +22,55 @@ section{
 }
 
 .text{
+    height: 100%;
     width: 35%;
     display: flex;
     flex-direction: column;
     gap: 10px;
     justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
 #ia h2{
     font-size: 40px;
+    color: white;
+}
+
+.saiba-mais{
+    margin-top: 10px;
+    width: 110px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #76B900;
+    border: none;
+    cursor: pointer;
+}
+
+/* noticias */
+
+#noticias{
+    text-align: center;
+}
+
+.cards-noticias{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.card-noticia{
+    color: black;
+    height: 80%;
+    width: 300px;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
