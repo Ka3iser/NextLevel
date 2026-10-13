@@ -100,6 +100,13 @@ h2{
     margin-right: 3%;
 }
 
-#ia p{
+.content-text{
+    font-size: 30px;
+}
+
+/* sessão RTX */
+
+.content-text-right{
+    margin-right: 6%;
     font-size: 30px;
 }
