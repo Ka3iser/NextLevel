@@ -102,6 +102,7 @@ h2{
 }
 
 .content-text-right{
+    width: 500px;
     margin-right: 6%;
     font-size: 30px;
 }
