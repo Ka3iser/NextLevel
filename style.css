@@ -57,3 +57,36 @@ header nav{
 #logo{
     background-color: white;
 }
+
+/* rodape */
+
+footer{
+    background-color: black;
+    height: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lista-rodape{
+    margin: 2.5%;
+    height: 90%;
+    width: 20%;
+}
+
+.lista-rodape ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.lista-rodape a{
+    text-decoration: none;
+    color: #76B900;
+}
+
+.lista-rodape hr{
+    background-color: rgb(86, 86, 86);
+    border: none;
+    height: 2px;
+    
+}

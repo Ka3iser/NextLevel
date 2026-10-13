@@ -40,8 +40,8 @@ h2{
 
 .saiba-mais{
     margin-top: 10px;
-    width: 110px;
-    height: 40px;
+    width: 120px;
+    height: 50px;
     border-radius: 10px;
     background-color: #76B900;
     border: none;
@@ -67,7 +67,7 @@ h2{
 
 .card-noticia{
     color: black;
-    height: 80%;
+    height: 85%;
     width: 300px;
     border-radius: 20px;
     background-color: white;
