@@ -12,6 +12,15 @@ body{
     color: white;
 }
 
+.saiba-mais{
+    margin-top: 10px;
+    padding: 4% 6%;
+    border-radius: 10px;
+    background-color: #76B900;
+    border: none;
+    cursor: pointer;
+}
+
 /* cabeçalho */
 
 header{
@@ -20,6 +29,11 @@ header{
     flex-wrap: wrap;
     align-items: center;
     background-color: white;
+}
+
+header ul{
+    width: 60%;
+    text-align: center;
 }
 
 ul{
@@ -47,11 +61,6 @@ header a{
 header a:hover{
     color: black;
     transition: .7s;
-}
-
-header nav{
-    width: 216px;
-    
 }
 
 #logo{
@@ -130,4 +139,5 @@ small{
     padding: 1.5% 3%;
     background-color: #76B900;
     border: none;
+    cursor: pointer;
 }

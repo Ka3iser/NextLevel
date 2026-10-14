@@ -1,0 +1,29 @@
+main{
+    height: 200vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.produtos{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.produto{
+    background-color: white;
+    height: 350px;
+    width: 250px;
+    border-radius: 20px;
+    color: black;
+}
+
+.produto:hover{
+    transform: scale(1.05);
+    transition: .3s;
+}
