@@ -62,13 +62,20 @@ header nav{
 
 footer{
     background-color: black;
-    height: 60vh;
+    height: 100vh;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.links-rodape{
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .lista-rodape{
-    margin: 2.5%;
+    margin: 4%;
     height: 90%;
     width: 20%;
 }
