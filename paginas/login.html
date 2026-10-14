@@ -11,25 +11,33 @@
     <main>
         <section id="container">
             <h1>NVIDIA Account Portal</h1>
-            <h2>Sua conta NVIDIA</h2>
-            <p>Digite seu email para fazer login ou criar sua conta.</p>
-            <form action="#">
-                <label for="email">O email</label>
+            <div id="caixa-formulario">
+                <h2>Sua conta NVIDIA</h2>
+                <p>Digite seu email para fazer login ou criar sua conta.</p>
+                <form action="#">
+                    <div id="o-email">
+                        <label for="email"  ><span id="paragrafo-o-email">O email</span></label><br>
+                        <input type="email" placeholder="Insira o seu endereço de email">
+                    </div>
                 
-                <input type="email">
+                    <div id="manter-se-conectado">
+                        <input type="checkbox">
+                        <label for="checkbox">Manter-se conectado.</label>
+                    </div>
                 
-                <input type="checkbox">
-                <label for="checkbox">Manter-se conectado.</label>
-                
-                <button>Continuar</button>
-                <span>ou</span>
-                <button>Continuar</button>
-                <button>Continuar</button>
-                <button>Continuar</button>
-                <button>Continuar</button>
-                <button>Continuar</button>
-                <button>Continuar</button>
-            </form>
+                    <div ><button id="continuar">Continuar</button></div>
+                    
+                        <span>ou</span>
+                        <div id="fazer-login">
+                        <div><button class="botao-login">Fazer login com Google <img src="../img/icones/google.png" alt=""></button></div>
+                        <div><button class="botao-login">Fazer login com Apple <img src="../img/icones/logotipo-do-mac-os.png" alt=""></button></div>
+                        <div><button class="botao-login">Fazerlogin com Microsoft <img src="../img/icones/logotipo-grande-do-windows.png" alt=""></button></div>
+                        <div><button class="botao-login">Fazer login com Discord <img src="../img/icones/icone-discord" alt=""></button></div>
+                        <div><button class="botao-login">Fazer login com Facebook <img src="../img/icones/facebook.png" alt=""></button></div>
+                        <div><button class="botao-login">Mostrar Mais</button></div>
+                    </div>
+                </form>
+            </div>
         </section>
     </main>
 </body>
