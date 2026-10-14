@@ -18,6 +18,7 @@ body{
     background-color: #76B900;
     border: none;
     cursor: pointer;
+    font-size: 15px;
 }
 
 .saiba-mais:hover{

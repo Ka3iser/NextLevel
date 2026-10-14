@@ -88,14 +88,22 @@ h2{
 }
 
 .content-text-left{
-    width: 40%;
+    width: 45%;
     font-size: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .content-text-right{
     width: 40%;
     margin-right: 6%;
     font-size: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .img img{
