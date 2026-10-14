@@ -21,6 +21,11 @@ body{
     cursor: pointer;
 }
 
+.saiba-mais:hover{
+    background-color: #5e9108;
+    transition: .3s;
+}
+
 /* cabeçalho */
 
 header{

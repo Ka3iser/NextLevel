@@ -1,29 +1,52 @@
 main{
-    height: 200vh;
+    height: 150vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.produtos{
-    height: 100%;
-    width: 80%;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
+.produto img{
+    width: 295px;
+    height: 190px;
+    border-radius: 20px;
+    margin: 7px;
+}
+
+.produtos h2{
+    font-size: 40px;
+}
+
+.produtos h3{
+    font-size: 27px;
+    width: 290px;
+    text-align: center;
 }
 
 .produto{
-    background-color: white;
-    height: 350px;
-    width: 250px;
-    border-radius: 20px;
+    width: 320px;
+    height: 320px;
+    background-color: rgba(255, 255, 255, 0.952);
     color: black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.produto:hover{
-    transform: scale(1.05);
-    transition: .3s;
+.produtos section{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 30px;
+}
+
+.produtos .container{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.saiba-mais{
+    margin: 10px;
 }
