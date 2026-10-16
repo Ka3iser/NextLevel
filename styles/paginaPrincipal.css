@@ -1,6 +1,7 @@
 /* main */
 section{
     height: 100vh;
+    margin: 3.7% 0px;
 }
 
 h2{
@@ -12,6 +13,7 @@ h2{
 /* inicio da pagina */
 
 #inicio{
+    margin: 0px 0px 3.7% 0px;
     background-image: url(../img/backgrounds/notebook-background.png);
     background-size: cover;
     background-position: top;

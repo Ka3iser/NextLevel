@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
@@ -37,7 +38,7 @@ header{
 }
 
 header ul{
-    width: 60%;
+    width: 78%;
     text-align: center;
 }
 
