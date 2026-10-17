@@ -11,8 +11,9 @@ main{
     background-color: #1a1a1a;
 }
 #container h1{
-    color: rgb(255, 255, 255);
-    background-color: black;
+    color: white;
+    background-color: #1a1a1a;
+    border: 2px solid #76B900;
     display: flex;
     justify-content: left;
     
@@ -31,13 +32,14 @@ main{
 }
 #caixa-formulario{
     width: 100%;
-    height: 550px;
-    background-color: #f1f1f1;
+    height: 570px;
+    background-color: white;
     border: 2px solid #76B900;
     
 }
 #container h2 {
     margin-bottom: 30px;
+    margin-top: 10px;
 }
 
 p{
@@ -67,10 +69,11 @@ p{
 
 #continuar{
     margin-bottom: 30px;
-    width: 100px;
+    width: 150px;
     height: 40px;
     background-color: white;
-    border: none;
+    border: 2px solid #76B900;
+    
     cursor: pointer;
     font-weight: 300;
     font-size: 17px;
@@ -87,5 +90,18 @@ p{
 }
 .botao-login img{
     width: 20px;
+
     
+}
+#nav{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo-nav{
+    margin-top: 5px;
+    width: 150px;
+
 }
