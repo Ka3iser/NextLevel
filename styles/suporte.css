@@ -1,37 +1,171 @@
 *{
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-}
-main{
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-#nav{
+    font-family: Arial, Helvetica, sans-serif;
+}   
 
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#logo-nav{
-
-    margin-top: 5px;
-    width: 150px;
-}
-
-#nav-suporte{
-    background-color: black;
-}
 header{
-    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: white;
 }
+
+header ul{
+    width: 78%;
+    text-align: center;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    list-style-type: none;
+}
+
+header a{
+    color: rgb(87, 84, 84);
+    padding: 6px;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+#link-entrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+header a:hover{
+    color: black;
+    transition: .7s;
+}
+
+#logo{
+    background-color: white;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    gap: 5px;
+}
+
 h1{
     display: flex;
-    align-items: center;
     justify-content: center;
+}
+
+
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+    flex-direction: column;
+    border: 3px solid #76B900;
+}
+
+.card{
+    border: 2px solid #76B900;
+    padding: 20px;
+    width: 500px;
+    height: 300px;
+    margin-bottom: 300x;
+    
+}
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.links-rodape{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.lista-rodape{
+    margin: 4%;
+    height: 90%;
+    width: 20%;
+}
+
+.lista-rodape ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.lista-rodape a{
+    text-decoration: none;
+    color: #76B900;
+}
+
+.lista-rodape hr{
+    background-color: rgb(86, 86, 86);
+    border: none;
+    height: 2px;
+    
+}
+
+.redes-sociais a{
+    font-size: 27px;
+    color: white;
+    text-decoration: none;
+}
+
+.redes-sociais a:hover{
+    color: #76B900;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+small{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.subscribe{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 2%;
+    font-size: 20px;
+}
+
+#btn-subscribe{
+    padding: 1.5% 3%;
+    background-color: #76B900;
+    border: none;
+    cursor: pointer;
+}
+
+#btn-subscribe:hover{
+    background-color: #5e9108;
+    transition: .3s;
+}
+h4{
+    color: white;
 }
