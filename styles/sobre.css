@@ -1,7 +1,8 @@
 body{
-    background-color: #1a1a1a;
+    background-color: black;
 }
 
 section{
     height: 100vh;
+    display: flex;
 }
