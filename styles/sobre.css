@@ -27,15 +27,15 @@ section{
 }
 
 h1{
-    font-size: 47px;
+    font-size: 57px;
 }
 
 h2{
-    font-size: 47px;
+    font-size: 57px;
 }
 
 p{
-    font-size: 20px;
+    font-size: 30px;
     margin-top: 3.5%;
 }
 
@@ -129,6 +129,7 @@ p{
     background-color: #76B900;
     border: none;
     cursor: pointer;
+    font-size: 20px;
 }
 
 .inscreva-se:hover{
