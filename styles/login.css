@@ -1,264 +1,141 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif
-}
 main{
-    height: 120vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #1a1a1a;
+    text-align: center;
 }
 
-header{
+main img{
+    height: 20px;
+}
+
+#login{
+    background-color: rgba(48, 46, 46, 0.932);
+    color: black;
+    height: 85%;
+    width: 25%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    height: 90%;
+    width: 90%;
+}
+
+h1{
+    font-size: 70px;
+    margin-bottom: 20px;
+    color: #76B900;
+}
+
+.input-box{
+    width: 100%;
+    height: 40px;
+    margin: 40px 0px;
+    position: relative;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: 3px solid #76B900;
+    color: white;
+    border-radius: 40px;
+    outline: none;
+    padding: 25px 45px 25px 20px;
+}
+
+.input-box input::placeholder{
+    color: rgba(255, 255, 255, 0.795);
+}
+
+.input-box i{
+    position: absolute;
+    top: 17px;
+    right: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+.remember-forgot{
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
-    background-color: white;
+    font-size: 18px;
+    color: white;
 }
 
-header ul{
-    width: 78%;
-    text-align: center;
+.remember-forgot label input{
+    margin-right: 5px;
 }
 
-ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 30px;
-    list-style-type: none;
-}
-
-header a{
-    color: rgb(87, 84, 84);
-    padding: 6px;
-    font-size: 17px;
+.remember-forgot a{
     text-decoration: none;
-}
-
-#link-entrar{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
-}
-
-header a:hover{
-    color: black;
-    transition: .7s;
-}
-
-#logo{
-    background-color: white;
-}
-
-#container h1{
-    color: white;
-    background-color: #1a1a1a;
-    border: 2px solid #76B900;
-    display: flex;
-    justify-content: left;
-    
-}
-#container{
-    width: 550px;
-    
-    padding: 30px 40px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    gap: 40px;
-    margin-bottom:30px
-    
-    
-    
-}
-#caixa-formulario{
-    width: 100%;
-    height: 570px;
-    background-color: white;
-    border: 2px solid #76B900;
-    
-}
-#container h2 {
-    margin-bottom: 30px;
-    margin-top: 10px;
-}
-
-p{
-    color: #000000DE;
-    margin-bottom: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-#o-email{
-    margin-right: 100px;
-    margin-bottom: 20px;
-    text-align: start;
-}
-#paragrafo-o-email{
-    margin-left: 20px;
-}
-#o-email input{
-    width: 300px;
-    height: 30px;
-    margin-left: 20px;
-    padding: 5px;
-}
-
-#a-senha{
-    margin-right: 100px;
-    margin-bottom: 20px;
-    text-align: start;
-}
-
-#paragrafo-a-senha{
-    margin-left: 20px;
-}
-
-#a-senha input{
-    width: 300px;
-    height: 30px;
-    margin-left: 20px;
-    padding: 5px;
-}
-
-
-#manter-se-conectado{
-    margin-bottom: 30px;
-    margin-right: 255px;
-    
-}
-
-#continuar{
-    margin-bottom: 30px;
-    width: 200px;
-    height: 40px;
-    background-color: white;
-    border: 2px solid #76B900;
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: 300;
-    font-size: 17px;
-
-}
-.botao-login{
-    height: 40px;
-    width: 250px;
-    cursor: pointer;
-    border: 2px solid#76B900;
-    border-radius: 5px;
-    background-color: white;
-    margin: 5px;
-    
-}
-.botao-login img{
-    width: 20px;
-
-    
-}
-#nav{
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#logo-nav{
-    margin-top: 5px;
-    width: 150px;
-
-}
-
-
-footer{
-    background-color: black;
-    height: 100vh;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
-
-.links-rodape{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.lista-rodape{
-    margin: 4%;
-    height: 90%;
-    width: 20%;
-}
-
-.lista-rodape ul{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
-
-.lista-rodape a{
-    text-decoration: none;
-    color: #76B900;
-}
-
-.lista-rodape hr{
-    background-color: rgb(86, 86, 86);
-    border: none;
-    height: 2px;
-    
-}
-
-#receba-noticias{
-    color: white;
-    font-size: 20px;
-}
-
-.redes-sociais a{
-    font-size: 27px;
-    color: white;
-    text-decoration: none;
-}
-
-.redes-sociais a:hover{
-    color: #76B900;
-}
-
-.container{
-    display: flex;
-    justify-content: center;
-}   
-
-small{
-    margin-top: 30px;
-    text-align: center;
     color: white;
 }
 
-.subscribe{
-    width: 50%;
-    display: flex;
-    align-items: center;
-    gap: 2%;
-    font-size: 20px;
+.remember-forgot a:hover{
+    text-decoration: underline;
 }
 
-#btn-subscribe{
-    padding: 1.5% 3%;
+.login{
+    height: 50px;
+    width: 87%;
+    border-radius: 50px;
     background-color: #76B900;
     border: none;
     cursor: pointer;
+    font-size: 19px;
+    font-weight: 500;
+    margin: 23px 0px;
 }
 
-#btn-subscribe:hover{
+.login:hover{
     background-color: #5e9108;
-    transition: .3s;
+    color: white;
+    transition: 0.3s;
 }
 
-h4{
+.register p{
     color: white;
+}
+
+.register a{
+    text-decoration: none;
+    color: white;
+    margin-left: 7px;
+    font-weight: 600;
+}
+
+.register a:hover{
+    text-decoration: underline;
+}
+
+hr{
+    margin: 25px 0px;
+}
+
+.outros-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.outro-login{
+    height: 45px;
+    width: 87%;
+    margin: 10px 0px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
 }
