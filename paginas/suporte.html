@@ -1,149 +1,132 @@
 <!doctype html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../styles/suporte.css" />
-    <title>Nvidia</title>
-</head> 
-<body>
-    <header>
-        <a href="../index.html" id="logo">
-            <img src="../img/logo/NVIDIA_logo.svg.webp" alt="Logo Nvidia" height="25px">
-        </a>
-        <nav>
-            <ul>
-                <li>
-                    <a href="../paginas/produtos.html">Produtos</a>
-                </li>
-                <li>
-                    <a href="../paginas/sobre.html">Sobre</a>
-                </li>
-                <li>
-                    <a href="../paginas/suporte.html">Suporte</a>
-                </li>
-            </ul>
-        </nav>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="shortcut icon" href="../img/logo/nvidiaLogo.ico" type="image/x-icon">
+        <link rel="stylesheet" href="../style.css">
+        <link rel="stylesheet" href="../styles/suporte.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css"/>
+        <title>Suporte</title>
+    </head> 
+    <body>
+        <header>
+            <a href="../index.html" id="logo">
+                <img src="../img/logo/NVIDIA_logo.svg.webp" alt="Logo Nvidia" height="25px">
+            </a>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="../paginas/produtos.html">Produtos</a>
+                    </li>
+                    <li>
+                        <a href="../paginas/sobre.html">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="../paginas/suporte.html">Suporte</a>
+                    </li>
+                </ul>
+            </nav>
 
-        <a href="../paginas/login.html" id="link-entrar"><i class="ti ti-user-circle"></i> Entrar</a>
-    </header>
-    <main>
-        <h1>Suporte NVIDIA</h1>
-        <p id="paragrafo-inicial">
-            Os serviços de suporte da NVIDIA são projetados para atender às
-            necessidades do consumidor e dos clientes <br />
-            corporativos, com várias opções para ajudar a garantir uma experiência
-            excepcional.
-        </p>
-
-        <strong>
-            <p>Selecione a opção abaixo para saber mais.</p>
-        </strong>
-
-        <section>
-            <div id="cards">
-                <article class="card">
-                <h2>Suporte ao Consumidor</h2>
-
-                <p>Encontre suporte para produtos como:</p>
-
-                <p>NVIDIA Brev</p>
-                <p>GeForce Graphics Cards</p>
-                <p>GeForce NOW</p>
-                <p>NVIDIA SHIELD</p>
-                <p>Jetson Kits</p>
-
-                <a href="#">
-                    <h3 href="#" class="link-suporte">Vejas opções de Suporte</h>
-                </a>
-                </article>
-
-                <article class="card">
-                <h2>Suporte Empresarial</h2>
-
-                <p>Encontre suporte para produtos de nível empresarial, como:</p>
-
-                <p>Plataforma NVIDIA DGX™</p>
-                <p>NVIDIA AI Enterprise</p>
-                <p>Soluções de Rede NVIDIA</p>
-                <a href="#">
-                <h3 class="link-suporte">Explore as Opções de Suporte</h3>
-                </a>
-                <a href="#">
-                <h3 class="link-suporte">Abra um Pedido de Suporte</h3>
-                </a>
-                </article>
+            <a href="../paginas/login.html" id="link-entrar"><i class="ti ti-user-circle"></i> Entrar</a>
+        </header>
+        <main>
+            <h1>Suporte NVIDIA</h1>
+            <div class="suporte-text">
+                <p>Os Serviços oferecidos da NVIDIA são projetados para atender às necessidades do consumidor e dos cliente corporativos, com várias opções para ajudar a garantir uma experiência excepcional.</p>
             </div>
-        </section>
-    </main>
-    <footer>
-        <article class="links-rodape">
-            <article class="lista-rodape">
-                <h4>Informações corporativas</h4>
-                <br>
-                <hr>
-                <br>
-                <ul>
-                    <li><a href="#">Sobre Nós</a></li>
-                    <li><a href="#">Investidores</a></li>
-                    <li><a href="#">Venture Capital(NVentures)</a></li>
-                    <li><a href="#">Fundação NVIDIA</a></li>
-                    <li><a href="#">Pesquisa</a></li>
-                    <li><a href="#">Sustentabilidade</a></li>
-                    <li><a href="#">Tecnologias</a></li>
-                    <li><a href="#">Carreiras</a></li>
-                </ul>
+            <h3>selecione a opção abaixo para saber mais.</h3>
+            <section id="cards">
+                <article class="card">
+                    <h2>Suporte ao Consumidor</h2>
+                    <p>Encontre Suporte ao Consumidor, como:</p>
+                    <ul>
+                        <li>NVIDIA Brev</li>
+                        <li>GeForce Graphics Cards</li>
+                        <li>GeForce NOW</li>
+                    </ul>
+                    <button class="falar-suporte">Falar com Suporte</button>
+                </article>
+                <article class="card">
+                    <h2>Suporte Empresarial</h2>
+                    <p>Encontre Suporte Para Empresas, como:</p>
+                    <ul>
+                        <li>Plataforma NVIDIA DGX</li>
+                        <li>NVIDIA AI Enterprise</li>
+                        <li>Soluções de Rede</li>
+                    </ul>
+                    <button class="falar-suporte">Falar com Suporte</button>
+                </article>
+            </section>
+        </main>
+        <footer>
+            <article class="links-rodape">
+                <article class="lista-rodape">
+                    <h4>Informações corporativas</h4>
+                    <br>
+                    <hr>
+                    <br>
+                    <ul>
+                        <li><a href="#">Sobre Nós</a></li>
+                        <li><a href="#">Investidores</a></li>
+                        <li><a href="#">Venture Capital(NVentures)</a></li>
+                        <li><a href="#">Fundação NVIDIA</a></li>
+                        <li><a href="#">Pesquisa</a></li>
+                        <li><a href="#">Sustentabilidade</a></li>
+                        <li><a href="#">Tecnologias</a></li>
+                        <li><a href="#">Carreiras</a></li>
+                    </ul>
+                </article>
+                <article class="lista-rodape">
+                    <h4>Informações corporativas</h4>
+                    <br>
+                    <hr>
+                    <br>
+                    <ul>
+                        <li><a href="#">Sobre Nós</a></li>
+                        <li><a href="#">Investidores</a></li>
+                        <li><a href="#">Venture Capital(NVentures)</a></li>
+                        <li><a href="#">Fundação NVIDIA</a></li>
+                        <li><a href="#">Pesquisa</a></li>
+                        <li><a href="#">Sustentabilidade</a></li>
+                        <li><a href="#">Tecnologias</a></li>
+                        <li><a href="#">Carreiras</a></li>
+                    </ul>
+                </article>
+                <article class="lista-rodape">
+                    <h4>Informações corporativas</h4>
+                    <br>
+                    <hr>
+                    <br>
+                    <ul>
+                        <li><a href="#">Sobre Nós</a></li>
+                        <li><a href="#">Investidores</a></li>
+                        <li><a href="#">Venture Capital(NVentures)</a></li>
+                        <li><a href="#">Fundação NVIDIA</a></li>
+                        <li><a href="#">Pesquisa</a></li>
+                        <li><a href="#">Sustentabilidade</a></li>
+                        <li><a href="#">Tecnologias</a></li>
+                        <li><a href="#">Carreiras</a></li>
+                    </ul>
+                </article>
             </article>
-            <article class="lista-rodape">
-                <h4>Informações corporativas</h4>
-                <br>
-                <hr>
-                <br>
-                <ul>
-                    <li><a href="#">Sobre Nós</a></li>
-                    <li><a href="#">Investidores</a></li>
-                    <li><a href="#">Venture Capital(NVentures)</a></li>
-                    <li><a href="#">Fundação NVIDIA</a></li>
-                    <li><a href="#">Pesquisa</a></li>
-                    <li><a href="#">Sustentabilidade</a></li>
-                    <li><a href="#">Tecnologias</a></li>
-                    <li><a href="#">Carreiras</a></li>
-                </ul>
+            <article class="container">
+                <article class="subscribe">
+                    <p><i class="ti ti-mail"></i>Receba Noticias da NVIDIA</p>
+                    <button id="btn-subscribe">Inscreva-se</button>
+                </article>
+                <article class="redes-sociais">
+                    <ul>
+                        <li><a href="https://www.facebook.com/NVIDIAGeForce.BR?_rdc=1&_rdr#" target="_blank"><i class="ti ti-brand-facebook"></i></a></li>
+                        <li><a href="https://www.instagram.com/nvidiageforcebr/" target="_blank"><i class="ti ti-brand-instagram"></i></a></li>
+                        <li><a href="https://www.linkedin.com/showcase/nvidiabrasil/home/" target="_blank"><i class="ti ti-brand-linkedin"></i></a></li>
+                        <li><a href="https://www.twitch.tv/nvidiabrasil" target="_blank"><i class="ti ti-brand-twitch"></i></a></li>
+                        <li><a href="https://x.com/NVIDIAGeForceBR" target="_blank"><i class="ti ti-brand-x"></i></a></li>
+                        <li><a href="https://www.youtube.com/channel/UCR2e7i8LSySLzIAYQObU7cQ" target="_blank"><i class="ti ti-brand-youtube"></i></a></li>
+                    </ul>
+                </article>
             </article>
-            <article class="lista-rodape">
-                <h4>Informações corporativas</h4>
-                <br>
-                <hr>
-                <br>
-                <ul>
-                    <li><a href="#">Sobre Nós</a></li>
-                    <li><a href="#">Investidores</a></li>
-                    <li><a href="#">Venture Capital(NVentures)</a></li>
-                    <li><a href="#">Fundação NVIDIA</a></li>
-                    <li><a href="#">Pesquisa</a></li>
-                    <li><a href="#">Sustentabilidade</a></li>
-                    <li><a href="#">Tecnologias</a></li>
-                    <li><a href="#">Carreiras</a></li>
-                </ul>
-            </article>
-        </article>
-        <article class="container">
-            <article class="subscribe">
-                <p><i class="ti ti-mail"></i>Receba Noticias da NVIDIA</p>
-                <button id="btn-subscribe">Inscreva-se</button>
-            </article>
-            <article class="redes-sociais">
-                <ul>
-                    <li><a href="https://www.facebook.com/NVIDIAGeForce.BR?_rdc=1&_rdr#" target="_blank"><i class="ti ti-brand-facebook"></i></a></li>
-                    <li><a href="https://www.instagram.com/nvidiageforcebr/" target="_blank"><i class="ti ti-brand-instagram"></i></a></li>
-                    <li><a href="https://www.linkedin.com/showcase/nvidiabrasil/home/" target="_blank"><i class="ti ti-brand-linkedin"></i></a></li>
-                    <li><a href="https://www.twitch.tv/nvidiabrasil" target="_blank"><i class="ti ti-brand-twitch"></i></a></li>
-                    <li><a href="https://x.com/NVIDIAGeForceBR" target="_blank"><i class="ti ti-brand-x"></i></a></li>
-                    <li><a href="https://www.youtube.com/channel/UCR2e7i8LSySLzIAYQObU7cQ" target="_blank"><i class="ti ti-brand-youtube"></i></a></li>
-                </ul>
-            </article>
-        </article>
-        <article class="copyright"><small>Copyright © 2026 NVIDIA Corporation</small></article>
-    </footer>
+            <article class="copyright"><small>Copyright © 2026 NVIDIA Corporation</small></article>
+        </footer>
     </body>
 </html>
