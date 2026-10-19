@@ -1,7 +1,7 @@
 /* main */
 section{
     height: 100vh;
-    margin: 3.7% 0px;
+    margin: 5.7% 0px;
 }
 
 h2{
@@ -119,7 +119,7 @@ h2{
 /* rtx */
 
 #rtx img{
-    width: 90vh;
+    width: 40vw;
 }
 
 /* data center */
