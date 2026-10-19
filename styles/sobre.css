@@ -6,6 +6,7 @@ section{
     height: 93vh;
     display: flex;
     justify-content: space-around;
+    margin: 7% 0px;
 }
 
 .text-left{
